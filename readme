@@ -1,0 +1,38 @@
+# Angular2
+
+To start App - use 
+
+npm run dev
+
+To start Server - use
+
+node server
+
+- There is a change in typescript module that you need
+- Please do these following steps inorder to migrate from ang 5 to ang 7+
+
+there are some breaking changes based on the nodejs 10+ version to nodejs 10 -or lower relative to angular upgrade
+
+If your application is not an angular cli, you will need to follow certain procedures and 
+you will need certain npm packages to support the npm usage. Please go through my Angular 2 repository files and
+readme to start using assembled angular 2
+
+Follow these steps after you get my https://github.com/varunrajasekhar/Angular2/tree/branch-dev-v0.0.1
+repo
+
+In your console window please run
+
+npm i rxjs-compat --save
+npm i -g typescript
+npm i --save-dev @types/node
+
+
+and then run "npm run dev" .
+
+This will start the application on localhost:8080
+
+
+
+
+
+
